@@ -14,3 +14,8 @@ output "hello_world" {
 output "hello_world2" {
   value = "Hello, World!"
 }
+
+# website::tag::1:: The simplest possible Terraform module: it just outputs "Hello, World!"
+output "hello_world3" {
+  value = "Hello, World!"
+}
